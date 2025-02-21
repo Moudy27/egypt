@@ -1,0 +1,58 @@
+html{
+    background-image: url("https://img.veenaworld.com/wp-content/uploads/2024/01/shutterstock_149752532.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family:'raleway';
+    padding: 20px;
+    border-radius: 100px q;
+}
+h1,p{
+    text-align: center;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+label{
+    display: block;
+    border: 1em;
+}
+input ,select{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 0.3em;
+    color: gray;
+    border: solid 1px black;
+    resize: vertical;
+    border-radius: 10px;
+}
+input[type=checkbox], input[type=radio]{
+    display: inline;
+    width: auto;
+}
+.inline{
+    display: inline;
+    width: auto;
+}
+option{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+#submit{
+    color: black;
+    background-color: green;
+}
+#reset{
+    color: black;
+    background-color: red;
+}
